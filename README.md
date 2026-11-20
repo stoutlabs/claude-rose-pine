@@ -9,18 +9,18 @@ Switch the dark variant with `/rose-pine main` or `/rose-pine moon`. The choice 
 
 ## Install
 
-At the prompt of a Claude Code terminal session:
+At the prompt of a Claude Code terminal session, add the marketplace, then install the theme:
 
 ```
-/plugin install rose-pine --marketplace stoutlabs/claude-rose-pine
+/plugin marketplace add stoutlabs/claude-rose-pine
+/plugin install rose-pine@claude-rose-pine
 ```
-
-Answer `y` to add the marketplace, then press Enter to pick the user scope.
 
 From a shell:
 
 ```bash
-claude plugin install rose-pine --marketplace stoutlabs/claude-rose-pine
+claude plugin marketplace add stoutlabs/claude-rose-pine
+claude plugin install rose-pine@claude-rose-pine
 ```
 
-In the desktop app, where `/plugin` does not run: click **+** next to the prompt box, then **Plugins**, then **Add marketplace** with `stoutlabs/claude-rose-pine`, then **Add plugin**.
+In the desktop app: click **+** next to the prompt box, then **Plugins**, then **Add marketplace** with `stoutlabs/claude-rose-pine`, then **Add plugin** and pick **rose-pine**.
